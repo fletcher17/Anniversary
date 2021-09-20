@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/anniversaryFragment"
+            android:title="Happy Anniversary Baby" />
+        <item
+            android:id="@+id/messageFragment"
+            android:title="To My Baby" />
+        <item
+            android:id="@+id/firstYear"
+            android:title="Our First Year" />
+        <item
+            android:id="@+id/secondYear"
+            android:title="Our Second Year" />
+
+        <item
+            android:id="@+id/goofyTimesFragment"
+            android:title="Video" />
+    </group>
+</menu>

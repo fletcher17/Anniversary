@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/anniversaryFragment">
+
+    <fragment
+        android:id="@+id/anniversaryFragment"
+        android:name="com.decadev.happyanniversary.AnniversaryFragment"
+        android:label="fragment_anniversary"
+        tools:layout="@layout/fragment_anniversary" />
+    <fragment
+        android:id="@+id/messageFragment"
+        android:name="com.decadev.happyanniversary.MessageFragment"
+        android:label="fragment_message"
+        tools:layout="@layout/fragment_message" />
+    <fragment
+        android:id="@+id/firstYear"
+        android:name="com.decadev.happyanniversary.FirstYear"
+        android:label="fragment_first_year"
+        tools:layout="@layout/fragment_first_year" />
+    <fragment
+        android:id="@+id/secondYear"
+        android:name="com.decadev.happyanniversary.SecondYear"
+        android:label="fragment_second_year"
+        tools:layout="@layout/fragment_second_year" />
+    <fragment
+        android:id="@+id/goofyTimesFragment"
+        android:name="com.decadev.happyanniversary.GoofyTimes"
+        android:label="fragment_goofy_times"
+        tools:layout="@layout/fragment_goofy_times" />
+</navigation>
