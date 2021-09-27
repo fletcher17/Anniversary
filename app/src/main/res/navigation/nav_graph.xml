@@ -19,15 +19,45 @@
         android:id="@+id/firstYear"
         android:name="com.decadev.happyanniversary.FirstYear"
         android:label="fragment_first_year"
-        tools:layout="@layout/fragment_first_year" />
+        tools:layout="@layout/fragment_first_year" >
+        <action
+            android:id="@+id/action_firstYear_to_imageClickedFragment"
+            app:destination="@id/imageClickedFragment" />
+    </fragment>
     <fragment
         android:id="@+id/secondYear"
         android:name="com.decadev.happyanniversary.SecondYear"
         android:label="fragment_second_year"
-        tools:layout="@layout/fragment_second_year" />
+        tools:layout="@layout/fragment_second_year" >
+        <action
+            android:id="@+id/action_secondYear_to_secondImageClickedFragment"
+            app:destination="@id/secondImageClickedFragment" />
+    </fragment>
     <fragment
         android:id="@+id/goofyTimesFragment"
         android:name="com.decadev.happyanniversary.GoofyTimes"
         android:label="fragment_goofy_times"
         tools:layout="@layout/fragment_goofy_times" />
+    <fragment
+        android:id="@+id/imageClickedFragment"
+        android:name="com.decadev.happyanniversary.ImageClickedFragment"
+        android:label="fragment_image_clicked"
+        tools:layout="@layout/fragment_image_clicked" >
+        <argument
+            android:name="responseImage"
+            app:argType="com.decadev.happyanniversary.Model.ResponseData"
+            app:nullable="true"
+            android:defaultValue="@null"/>
+    </fragment>
+    <fragment
+        android:id="@+id/secondImageClickedFragment"
+        android:name="com.decadev.happyanniversary.SecondImageClickedFragment"
+        android:label="fragment_second_image_clicked"
+        tools:layout="@layout/fragment_second_image_clicked" >
+        <argument
+            android:name="secondImageResponse"
+            app:argType="com.decadev.happyanniversary.Model.SecondYear.ResponseData"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
 </navigation>

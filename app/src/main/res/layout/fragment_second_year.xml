@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#039BE5"
+    android:background="@color/white"
     tools:context=".SecondYear">
 
     <TextView
@@ -21,10 +21,11 @@
         android:layout_marginTop="20dp"/>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/first_year_recycler_view"
+        android:id="@+id/second_year_recycler_view"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="20dp"
+        android:background="@drawable/background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

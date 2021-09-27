@@ -5,18 +5,25 @@
       <map>
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.321025641025641" />
         <entry key="app/src/main/res/drawable/drawer_header_line.xml" value="0.16203703703703703" />
+        <entry key="app/src/main/res/drawable/ic_broken_image.xml" value="0.321025641025641" />
+        <entry key="app/src/main/res/drawable/loading_img.xml" value="0.321025641025641" />
         <entry key="app/src/main/res/layout/activity_header.xml" value="0.15070921985815602" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2921195652173913" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.14387031408308004" />
+        <entry key="app/src/main/res/layout/clicked_image_view.xml" value="0.15070921985815602" />
         <entry key="app/src/main/res/layout/first_year.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_anniversary.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/fragment_first_year.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/fragment_first_year.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_first_year2.xml" value="0.15070921985815602" />
         <entry key="app/src/main/res/layout/fragment_goofy_times.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/fragment_image_clicked.xml" value="0.15070921985815602" />
         <entry key="app/src/main/res/layout/fragment_message.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_second_image_clicked.xml" value="0.11980749746707194" />
         <entry key="app/src/main/res/layout/fragment_second_year.xml" value="0.15760869565217392" />
-        <entry key="app/src/main/res/layout/second_year.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/second_year.xml" value="0.25" />
         <entry key="app/src/main/res/menu/drawer_menu.xml" value="0.30512820512820515" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.18385416666666668" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3101851851851852" />
       </map>
     </option>
   </component>

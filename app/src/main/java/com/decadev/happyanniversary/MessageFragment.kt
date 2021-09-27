@@ -52,18 +52,6 @@ class MessageFragment : Fragment() {
         return view
     }
 
-//    override fun onResume() {
-//        super.onResume()
-//        val mediaPlayer: MediaPlayer = MediaPlayer.create(requireContext(), R.raw.timi_dakolo)
-//
-//        val play = binding.playButton
-//        val stop = binding.stopButton
-//
-//        if(mediaPlayer.isPlaying){
-//            play.text = getString(R.string.pause)
-//        }
-//    }
-
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
