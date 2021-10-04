@@ -5,7 +5,6 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.decadev.happyanniversary.Model.ResponseData
-import com.decadev.happyanniversary.Repository.MainRepository
 import kotlinx.coroutines.cancel
 
 class ImageClickedViewModel : ViewModel() {

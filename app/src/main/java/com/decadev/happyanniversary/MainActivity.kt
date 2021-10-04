@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-
+// responsible to support the up navigation in the action bar
     override fun onSupportNavigateUp(): Boolean {
         val navController = findNavController(R.id.fragmentContainerView)
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
